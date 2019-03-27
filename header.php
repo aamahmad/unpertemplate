@@ -147,7 +147,7 @@
     <div class="mu-slider-single">
       <div class="mu-slider-img">
         <figure>
-          <img src="http://localhost/aam.web.id/wp-content/uploads/2019/03/Banner4.png" alt="img">
+          <img src="http://appunper.xyz/wp-content/uploads/2018/09/blur-close-up-code-546819.jpg" alt="img">
         </figure>
       </div>
       <div class="mu-slider-content">
@@ -163,7 +163,7 @@
     <div class="mu-slider-single">
       <div class="mu-slider-img">
         <figure>
-          <img src="http://localhost/aam.web.id/wp-content/uploads/2019/03/blur-close-up-code-546819.jpg" alt="img">
+          <img src="http://appunper.xyz/wp-content/uploads/2018/09/accomplishment-celebrate-ce.jpg" alt="img">
         </figure>
       </div>
       <div class="mu-slider-content">
