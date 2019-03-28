@@ -1,4 +1,41 @@
 <?php get_header(); ?>
+<!-- Start Slider -->
+  <section id="mu-slider">
+    <!-- Start single slider item -->
+    <div class="mu-slider-single">
+      <div class="mu-slider-img">
+        <figure>
+          <img src="http://appunper.xyz/wp-content/uploads/2018/09/blur-close-up-code-546819.jpg" alt="img">
+        </figure>
+      </div>
+      <div class="mu-slider-content">
+        <h4>Welcome To Varsity</h4>
+        <span></span>
+        <h2>We Will Help You To Learn</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
+        <a href="#" class="mu-read-more-btn">Read More</a>
+      </div>
+    </div>
+    <!-- Start single slider item -->
+    <!-- Start single slider item -->
+    <div class="mu-slider-single">
+      <div class="mu-slider-img">
+        <figure>
+          <img src="http://appunper.xyz/wp-content/uploads/2018/09/accomplishment-celebrate-ce.jpg" alt="img">
+        </figure>
+      </div>
+      <div class="mu-slider-content">
+        <h4>Premiumu Quality Free Template</h4>
+        <span></span>
+        <h2>Best Education Template Ever</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
+        <a href="#" class="mu-read-more-btn">Read More</a>
+      </div>
+    </div>
+    <!-- Start single slider item --> 
+  </section>
+  <!-- End Slider -->
+  
   <!-- Start service  -->
   <section id="mu-service">
     <div class="container">
@@ -509,63 +546,27 @@
             <!-- start from blog content   -->
             <div class="mu-from-blog-content">
               <div class="row">
-                <div class="col-md-4 col-sm-4">
-                  <article class="mu-blog-single-item">
-                    <figure class="mu-blog-single-img">
-                      <a href="#"><img src="http://localhost/aam.web.id/wp-content/uploads/2019/03/post.jpg" alt="img"></a>
-                      <figcaption class="mu-blog-caption">
-                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                      </figcaption>                      
-                    </figure>
-                    <div class="mu-blog-meta">
-                      <a href="#">By Admin</a>
-                      <a href="#">02 June 2016</a>
-                      <span><i class="fa fa-comments-o"></i>87</span>
-                    </div>
-                    <div class="mu-blog-description">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                      <a class="mu-read-more-btn" href="#">Read More</a>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <article class="mu-blog-single-item">
-                    <figure class="mu-blog-single-img">
-                      <a href="#"><img src="http://localhost/aam.web.id/wp-content/uploads/2019/03/post.jpg" alt="img"></a>
-                      <figcaption class="mu-blog-caption">
-                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                      </figcaption>                      
-                    </figure>
-                    <div class="mu-blog-meta">
-                      <a href="#">By Admin</a>
-                      <a href="#">02 June 2016</a>
-                      <span><i class="fa fa-comments-o"></i>87</span>
-                    </div>
-                    <div class="mu-blog-description">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                      <a class="mu-read-more-btn" href="#">Read More</a>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <article class="mu-blog-single-item">
-                    <figure class="mu-blog-single-img">
-                      <a href="#"><img src="http://localhost/aam.web.id/wp-content/uploads/2019/03/post.jpg" alt="img"></a>
-                      <figcaption class="mu-blog-caption">
-                        <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                      </figcaption>                      
-                    </figure>
-                    <div class="mu-blog-meta">
-                      <a href="#">By Admin</a>
-                      <a href="#">02 June 2016</a>
-                      <span><i class="fa fa-comments-o"></i>87</span>
-                    </div>
-                    <div class="mu-blog-description">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                      <a class="mu-read-more-btn" href="#">Read More</a>
-                    </div>
-                  </article>
-                </div>
+                <?php
+                    // loop tampil produk
+                    $the_query = new WP_Query(array(
+                        'post_status' => 'publish',
+                        'post_type' => array( 'post'),
+                    ));
+                ?>
+
+                    <?php if ($the_query->have_posts()) : ?>
+                        <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+                            <?php
+                            /* Include the Post-Format-specific template for the content.
+                            * If you want to overload this in a child theme then include a file
+                            * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+                            */
+                            get_template_part( 'content', get_post_format() );
+                            ?>
+                        <?php endwhile; ?>
+                        <?php wp_reset_postdata(); ?>
+                <?php endif; ?>
+
               </div>
             </div>     
             <!-- end from blog content   -->   

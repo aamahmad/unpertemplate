@@ -104,7 +104,7 @@
                     $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
                     if ( has_custom_logo() ) { ?>
                         
-                    <img class="mt-2" height="70" src="<?php echo esc_url( $logo[0] ); ?>">
+                    <a href="<?php echo get_bloginfo( 'wpurl' );?>"><img class="mt-2" height="70" src="<?php echo esc_url( $logo[0] ); ?>"></a>
                     <?php } else { ?>
                        <div class="logo" style="background:transparent url(images/logosmall.png) left center no-repeat;">
                             <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><span>Teknik Informatika</span></a></h1>
@@ -141,39 +141,4 @@
     </div>
   </div>
   <!-- End search box -->
-  <!-- Start Slider -->
-  <section id="mu-slider">
-    <!-- Start single slider item -->
-    <div class="mu-slider-single">
-      <div class="mu-slider-img">
-        <figure>
-          <img src="http://appunper.xyz/wp-content/uploads/2018/09/blur-close-up-code-546819.jpg" alt="img">
-        </figure>
-      </div>
-      <div class="mu-slider-content">
-        <h4>Welcome To Varsity</h4>
-        <span></span>
-        <h2>We Will Help You To Learn</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
-        <a href="#" class="mu-read-more-btn">Read More</a>
-      </div>
-    </div>
-    <!-- Start single slider item -->
-    <!-- Start single slider item -->
-    <div class="mu-slider-single">
-      <div class="mu-slider-img">
-        <figure>
-          <img src="http://appunper.xyz/wp-content/uploads/2018/09/accomplishment-celebrate-ce.jpg" alt="img">
-        </figure>
-      </div>
-      <div class="mu-slider-content">
-        <h4>Premiumu Quality Free Template</h4>
-        <span></span>
-        <h2>Best Education Template Ever</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
-        <a href="#" class="mu-read-more-btn">Read More</a>
-      </div>
-    </div>
-    <!-- Start single slider item --> 
-  </section>
-  <!-- End Slider -->
+  
