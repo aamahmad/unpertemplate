@@ -149,3 +149,25 @@ require get_template_directory() . '/inc/custom-header.php';
  * Custom Kolaborasi
  */
 require get_template_directory() . '/inc/custom-kolaborasi.php';
+
+/**
+ * Custom Breadcumb
+ */
+require get_template_directory() . '/inc/custome-breadcume.php';
+
+/**
+ * Custom Filter excerpt
+ */
+require get_template_directory() . '/inc/custome-limit-excerpt.php';
+
+
+
+
+
+
+
+
+
+
+
+
