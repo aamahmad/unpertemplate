@@ -1,27 +1,23 @@
-<div class="col-md-4 col-sm-4">
-  <article class="mu-blog-single-item">
-                    <figure class="mu-blog-single-img">
-                      <a href="<?php the_permalink(); ?>">
+<div class="col-lg-4 col-md-4 col-xs-12">
+  <div class="mu-latest-course-single">
 
-          <?php if ( has_post_thumbnail() ) { ?>
-             <img src="<?php echo the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+    <?php if ( has_post_thumbnail() ) { ?>
+      <figure class="mu-latest-course-img">
+      <a href="<?php the_permalink(); ?>"><img src="<?php echo the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>"></a>
+    </figure>
 
-          <?php } else { ?>
-            <img src="http://localhost/aam.web.id/wp-content/uploads/2019/03/post.jpg" alt="img">
-          <?php } ?>
-                      </a>
-                      <figcaption class="mu-blog-caption">
-                        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                      </figcaption>                      
-                    </figure>
-                    <div class="mu-blog-meta">
-                      <a href="#">By Admin</a>
-                      <a href="#">02 June 2016</a>
-                      <span><i class="fa fa-comments-o"></i>87</span>
+    <?php } else { ?>
+      <figure class="mu-latest-course-img">
+      <a href="#"><img src="http://localhost/aam.web.id/wp-content/uploads/2019/03/artikel.jpg" alt="img"></a>
+      </figure>
+    <?php } ?>
+
+    <div class="mu-latest-course-single-content">
+      <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+      <p><?php the_excerpt(); ?></p>
+       <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="<?php the_permalink(); ?>">Read More</a>
                     </div>
-                    <div class="mu-blog-description">
-                      <p><?php the_excerpt(); ?></p>
-                      <a class="mu-read-more-btn" href="#">Read More</a>
-                    </div>
-  </article>
+    </div>  
+  </div>
 </div>
