@@ -137,3 +137,15 @@ function wpb_get_post_views($postID){
     return $count.' Views';
 }
 /*ENDPOPULER POST*/
+
+
+/**
+ * Custom template tags for this theme.
+ */
+require get_template_directory() . '/inc/custom-header.php';
+
+
+/**
+ * Custom Kolaborasi
+ */
+require get_template_directory() . '/inc/custom-kolaborasi.php';

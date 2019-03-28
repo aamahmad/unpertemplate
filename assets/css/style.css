@@ -558,14 +558,13 @@ img {
  ABOUT US COUNTER SECTION
 ====================*/
 #mu-abtus-counter {
-  background-image: url("http://localhost/aam.web.id/wp-content/uploads/2019/03/bg-counter.jpg");
+  /*background-image: url("http://localhost/aam.web.id/wp-content/uploads/2019/03/bg-counter.jpg");*/
   background-repeat: no-repeat;
   background-size: 100%;
   display: inline;
   float: left;
   padding: 100px 0;
   width: 100%;
-  opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 #mu-abtus-counter .mu-abtus-counter-area {
@@ -2496,4 +2495,10 @@ img {
   #mu-error .mu-error-area h2 {
     font-size: 100px;
   }
+}
+
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto!important;
 }

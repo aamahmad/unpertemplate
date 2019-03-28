@@ -35,6 +35,50 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Gallery  -->
+
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel='stylesheet' id='owl-carousel-css'  href='https://demo.accesspressthemes.com/enlighten/wp-content/themes/enlighten/js/owl-carousel/owl.carousel.css?ver=4.9.8' type='text/css' media='all' />
+
+<link rel='stylesheet' id='superfish-css'  href='https://demo.accesspressthemes.com/enlighten/wp-content/themes/enlighten/js/superfish/superfish.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='https://demo.accesspressthemes.com/enlighten/wp-content/themes/enlighten/js/wow/animate.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='mb-ytplayer-css'  href='https://demo.accesspressthemes.com/enlighten/wp-content/themes/enlighten/js/youtube-video/jquery.mb.YTPlayer.css?ver=4.9.8' type='text/css' media='all' />
+
+
+<script type='text/javascript' src='https://demo.accesspressthemes.com/enlighten/wp-content/plugins/ultimate-form-builder-lite/js/jquery.selectbox-0.2.min.js?ver=1.3.9'></script>
+
+<script type='text/javascript' src='https://demo.accesspressthemes.com/enlighten/wp-content/plugins/ultimate-form-builder-lite/js/frontend.js?ver=1.3.9'></script>
+
+<script type='text/javascript' src='https://demo.accesspressthemes.com/enlighten/wp-content/themes/enlighten/js/youtube-video/jquery.mb.YTPlayer.js?ver=4.9.8'></script>
+
+<script type='text/javascript' src='https://demo.accesspressthemes.com/enlighten/wp-content/themes/enlighten/js/superfish/superfish.js?ver=4.9.8'></script>
+
+<script type='text/javascript' src='https://demo.accesspressthemes.com/enlighten/wp-content/themes/enlighten/js/sticky-sidebar/theia-sticky-sidebar.js?ver=4.9.8'></script>
+
+<script type='text/javascript' src='https://demo.accesspressthemes.com/enlighten/wp-content/themes/enlighten/js/wow/wow.js?ver=4.9.8'></script>
+
+<script type='text/javascript' src='https://demo.accesspressthemes.com/enlighten/wp-content/themes/enlighten/js/bxslider/jquery.bxslider.js?ver=1.8.2'></script>
+
+<script type='text/javascript' src='https://demo.accesspressthemes.com/enlighten/wp-content/themes/enlighten/js/owl-carousel/owl.carousel.js?ver=4.9.8'></script>
+
+<script type='text/javascript' src='https://demo.accesspressthemes.com/enlighten/wp-content/themes/enlighten/js/counter-up/jquery.counterup.js?ver=4.9.8'></script>
+
+<script type='text/javascript' src='https://demo.accesspressthemes.com/enlighten/wp-content/themes/enlighten/js/custom.js?ver=4.9.8'></script>
+
+
+
+
+
+    <style>
+    .gallery
+    {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    </style>
+
   </head>
   <body> 
 
@@ -55,11 +99,11 @@
                 <div class="mu-header-top-left">
                   <div class="mu-top-email">
                     <i class="fa fa-envelope"></i>
-                    <span>info@markups.io</span>
+                    <span>info@unper.ac.id</span>
                   </div>
                   <div class="mu-top-phone">
                     <i class="fa fa-phone"></i>
-                    <span>(568) 986 652</span>
+                    <span>(0265) 326 058</span>
                   </div>
                 </div>
               </div>

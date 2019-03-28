@@ -9,11 +9,11 @@
         </figure>
       </div>
       <div class="mu-slider-content">
-        <h4>Welcome To Varsity</h4>
+        <!--<h4>Welcome To Varsity</h4>
         <span></span>
         <h2>We Will Help You To Learn</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
-        <a href="#" class="mu-read-more-btn">Read More</a>
+        <a href="#" class="mu-read-more-btn">Read More</a>-->
       </div>
     </div>
     <!-- Start single slider item -->
@@ -25,11 +25,11 @@
         </figure>
       </div>
       <div class="mu-slider-content">
-        <h4>Premiumu Quality Free Template</h4>
+        <!--<h4>Premiumu Quality Free Template</h4>
         <span></span>
         <h2>Best Education Template Ever</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
-        <a href="#" class="mu-read-more-btn">Read More</a>
+        <a href="#" class="mu-read-more-btn">Read More</a>-->
       </div>
     </div>
     <!-- Start single slider item --> 
@@ -45,22 +45,22 @@
             <!-- Start single service -->
             <div class="mu-service-single">
               <span class="fa fa-book"></span>
-              <h3>Learn Online</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima officiis, deleniti dolorem exercitationem praesentium, est!</p>
+              <h3>Lokasi Strategis</h3>
+              <p>Kampus Utama terletak di Pusat Kota Resik Tasikmalaya</p>
             </div>
             <!-- Start single service -->
             <!-- Start single service -->
             <div class="mu-service-single">
               <span class="fa fa-users"></span>
-              <h3>Expert Teachers</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima officiis, deleniti dolorem exercitationem praesentium, est!</p>
+              <h3>Fasilitas Lengkap</h3>
+              <p>Kampus dengan Fasilitas Lengkap untuk menunjang dan pengembangan diri</p>
             </div>
             <!-- Start single service -->
             <!-- Start single service -->
             <div class="mu-service-single">
               <span class="fa fa-table"></span>
-              <h3>Best Classrooms</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima officiis, deleniti dolorem exercitationem praesentium, est!</p>
+              <h3>5 Fakultas 10 Prog. Studi</h3>
+              <p>Pilihan Program Studi yang sangat beragam sesuai peminatan</p>
             </div>
             <!-- Start single service -->
           </div>
@@ -81,26 +81,22 @@
                 <div class="mu-about-us-left">
                   <!-- Start Title -->
                   <div class="mu-title">
-                    <h2>About Us</h2>              
+                    <h2>PROFIL KAMPUS</h2>              
                   </div>
                   <!-- End Title -->
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum pariatur fuga eveniet soluta aspernatur rem, nam voluptatibus voluptate voluptates sapiente, inventore. Voluptatem, maiores esse molestiae.</p>
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li>Saepe a minima quod iste libero rerum dicta!</li>
-                    <li>Voluptas obcaecati, iste porro fugit soluta consequuntur. Veritatis?</li>
-                    <li>Ipsam deserunt numquam ad error rem unde, omnis.</li>
-                    <li>Repellat assumenda adipisci pariatur ipsam eos similique, explicabo.</li>
-                  </ul>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quaerat harum facilis excepturi et? Mollitia!</p>
+                  <p>Yayasan Universitas Siliwangi setelah mengantarkan satu perguruan tinggi menjadi Perguruan Tinggi Negeri, saat ini melalui Surat Keputusan Menteri Pendidikan dan Kebudayaan Republik Indonesia Nomor 603/E/O/2014 telah mendirikan Universitas Perjuangan Tasikmalaya. Universitas ini didirikan berdasar pada fakta bahwa kesadaran masyarakat untuk menimba ilmu melalui pendidikan tinggi semakin meningkat. Sementara, Universitas Siliwangi yang sudah berstatus PTN hanya dapat menampung mahasiswa dengan jumlah yang sangat terbatas. Oleh karena itu, dengan hadirnya Universitas Perjuangan (UNPER) yang berada di bawah naungan Yayasan Universitas Siliwangi (YUS) diharapkan dapat menampung anak-anak muda harapan bangsa untuk menimba ilmu yang berkualitas untuk memimpin bangsa masa yang akan datang. Proses pendidikan di Universitas Perjuangan memiliki kualitas yang sejajar dengan kualitas di Universitas Siliwangi, karena kualitas pembinaan dan sarana pendidikan memiliki standar kualitas yang sama. Bahkan, dilihat dari segi fasilitas Universitas Perjuangan memiliki keunggulan yaitu memiliki tempat kost khusus dan strategis yang diperuntukan bagi mahasiswa yang bertempat tinggal jauh dari Kota Tasikmalaya.
+<ul>
+  <li>Lingkungan kampus yang luas, aman, dan nyaman.</li>
+  <li>Sarana pembelajaran berbasis teknologi informasi.</li>
+  <li>Laboratorium untuk seitap program studi.</li>
+  <li>Dosen-dosen berkualifikasi S2 dan S3 yg sesuai dengan keahliannya.</li>
+  <li>Perpustakaan menyediakan buku-buku sumber yg berkualitas.</li>
+</ul>
+Mahasiswa berprestasi dapat diusulkan untuk mendapatkan beasiswa Peningkatan Prestasi Akademik (PPA) dan juga beasiswa Bidikmisi.</p>
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
-                <div class="mu-about-us-right">                            
-                <a id="mu-abtus-video" href="https://www.youtube.com/embed/HN3pm9qYAUs" target="mutube-video">
-                  <img src="http://localhost/aam.web.id/wp-content/uploads/2019/03/569629-youtube.jpg" alt="img">
-                </a>                
-                </div>
+                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WNClCHNRlY8" width="300" height="150" allowfullscreen="allowfullscreen" allow="autoplay; "></iframe></div>
               </div>
             </div>
           </div>
@@ -111,7 +107,7 @@
   <!-- End about us -->
 
   <!-- Start about us counter -->
-  <section id="mu-abtus-counter">
+  <section id="mu-abtus-counter" style="background-image:url(<?php header_image(); ?>);">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -539,33 +535,46 @@
           <div class="mu-from-blog-area">
             <!-- start title -->
             <div class="mu-title">
-              <h2>From Blog</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vitae quae vero ut natus. Dolore!</p>
+              <h2>OUR PARTNER</h2>
+              <p>Kerjasama Universitas Perjuangan dengan banyak instansi pemerintah, lembaga pendidikan dan perusahan.</p>
             </div>
             <!-- end title -->  
             <!-- start from blog content   -->
             <div class="mu-from-blog-content">
               <div class="row">
-                <?php
-                    // loop tampil produk
-                    $the_query = new WP_Query(array(
-                        'post_status' => 'publish',
-                        'post_type' => array( 'post'),
-                    ));
-                ?>
 
-                    <?php if ($the_query->have_posts()) : ?>
-                        <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+
+               <div class="client_cat_loop owl-carousel wow fadeInUp owl-loaded owl-drag" style="margin-bottom: 15px; visibility: visible; animation-name: fadeInUp;">
+                        <div class="owl-stage-outer">
+                          <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 991px;">
+
                             <?php
-                            /* Include the Post-Format-specific template for the content.
-                            * If you want to overload this in a child theme then include a file
-                            * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-                            */
-                            get_template_part( 'content', get_post_format() );
-                            ?>
-                        <?php endwhile; ?>
-                        <?php wp_reset_postdata(); ?>
-                <?php endif; ?>
+                            // loop tampil produk
+                                $the_query = new WP_Query(array(
+                                  'post_status' => 'publish',
+                                  'posts_per_page' => 50,
+                                  'post_type' => 'kolaborasi',
+                              ));
+                              ?>
+
+                              <?php if ($the_query->have_posts()) : ?>
+                                  <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+                                    <?php
+                                  /* Include the Post-Format-specific template for the content.
+                                   * If you want to overload this in a child theme then include a file
+                                   * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+                                   */
+                                  get_template_part( 'content-kolaborasi', get_post_format() );
+                                  ?>
+                              <?php endwhile; ?>
+                              <?php wp_reset_postdata(); ?>
+                            <?php endif; ?>
+
+                          <div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
 
               </div>
             </div>     
